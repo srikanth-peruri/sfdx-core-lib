@@ -1,9 +1,9 @@
-<template>
-    <lightning-card title="App">
-        <c-common_comp-one class="childComponent"></c-common_comp-one>        
-        <br/>
-        <c-common_comp-two class="childComponent"></c-common_comp-two>
-        <br/>
-        <lightning-button label="Click Me" onclick={collectChildComponentsData}></lightning-button>
-    </lightning-card>
+<template>    
+    <div class="slds-grid slds-wrap">
+        <template for:each={campaignItemList} for:item='campaignItem'>
+            <div key={campaignItem.id} class="slds-col slds-size_4-of-12 slds-p-around_medium">
+                <c-common_campaign-tile-item key={campaignItem.id} campaign-item={campaignItem}></c-common_campaign-tile-item>      
+            </div>   
+        </template>      
+    </div>       
 </template>

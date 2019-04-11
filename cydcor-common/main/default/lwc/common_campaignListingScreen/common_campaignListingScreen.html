@@ -1,3 +1,6 @@
 <template>
-    <c-common_campaign-listing-container></c-common_campaign-listing-container>
+    <lightning-card  title="Select Campaign" icon-name="custom:custom63">
+        <c-core_search-bar onsearch={handleSearch}></c-core_search-bar>        
+        <c-common_campaign-listing-container campaign-item-list={campaignItemList}></c-common_campaign-listing-container>
+    </lightning-card>
 </template>
