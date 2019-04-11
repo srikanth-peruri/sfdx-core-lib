@@ -1,0 +1,116 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/core_APICaller": [
+                "../../../../cydcor-impl/main/lwc/core_APICaller/core_APICaller.js"
+            ],
+            "c/core_campaignTileContainer": [
+                "../../../../cydcor-impl/main/lwc/core_campaignTileContainer/core_campaignTileContainer.js"
+            ],
+            "c/core_campaignTileItem": [
+                "../../../../cydcor-impl/main/lwc/core_campaignTileItem/core_campaignTileItem.js"
+            ],
+            "c/core_customInfoContainer": [
+                "../../../../cydcor-impl/main/lwc/core_customInfoContainer/core_customInfoContainer.js"
+            ],
+            "c/core_forEach": [
+                "../../../../cydcor-impl/main/lwc/core_forEach/core_forEach.js"
+            ],
+            "c/core_helloworld": [
+                "../../../../cydcor-impl/main/lwc/core_helloworld/core_helloworld.js"
+            ],
+            "c/core_inputBox": [
+                "../../../../cydcor-impl/main/lwc/core_inputBox/core_inputBox.js"
+            ],
+            "c/core_iteration": [
+                "../../../../cydcor-impl/main/lwc/core_iteration/core_iteration.js"
+            ],
+            "c/core_newOpportunity": [
+                "../../../../cydcor-impl/main/lwc/core_newOpportunity/core_newOpportunity.js"
+            ],
+            "c/core_popup": [
+                "../../../../cydcor-impl/main/lwc/core_popup/core_popup.js"
+            ],
+            "c/core_popupContainer": [
+                "../../../../cydcor-impl/main/lwc/core_popupContainer/core_popupContainer.js"
+            ],
+            "c/core_responseDisplay": [
+                "../../../../cydcor-impl/main/lwc/core_responseDisplay/core_responseDisplay.js"
+            ],
+            "c/core_searchBar": [
+                "../../../../cydcor-impl/main/lwc/core_searchBar/core_searchBar.js"
+            ],
+            "c/core_shared": [
+                "../../../../cydcor-impl/main/lwc/core_shared/core_shared.js"
+            ],
+            "c/core_shellOrderContainer": [
+                "../../../../cydcor-impl/main/lwc/core_shellOrderContainer/core_shellOrderContainer.js"
+            ],
+            "c/core_simpleTrack": [
+                "../../../../cydcor-impl/main/lwc/core_simpleTrack/core_simpleTrack.js"
+            ],
+            "c/core_tileSpace": [
+                "../../../../cydcor-impl/main/lwc/core_tileSpace/core_tileSpace.js"
+            ],
+            "c/core_wizard": [
+                "../../../../cydcor-impl/main/lwc/core_wizard/core_wizard.js"
+            ],
+            "c/pubsub": [
+                "../../../../cydcor-impl/main/lwc/pubsub/pubsub.js"
+            ],
+            "c/core_appContainer": [
+                "../../../../opp-app/main/lwc/core_appContainer/core_appContainer.js"
+            ],
+            "c/core_banCard": [
+                "../../../../opp-app/main/lwc/core_banCard/core_banCard.js"
+            ],
+            "c/core_componentDetail": [
+                "../../../../opp-app/main/lwc/core_componentDetail/core_componentDetail.js"
+            ],
+            "c/core_productsCard": [
+                "../../../../opp-app/main/lwc/core_productsCard/core_productsCard.js"
+            ],
+            "c/core_baseComponent": [
+                "core_baseComponent/core_baseComponent.js"
+            ],
+            "c/core_campaignListingApp": [
+                "core_campaignListingApp/core_campaignListingApp.js"
+            ],
+            "c/core_campaignListingContainer": [
+                "core_campaignListingContainer/core_campaignListingContainer.js"
+            ],
+            "c/core_campaignListingScreen": [
+                "core_campaignListingScreen/core_campaignListingScreen.js"
+            ],
+            "c/core_compOne": [
+                "core_compOne/core_compOne.js"
+            ],
+            "c/core_compTwo": [
+                "core_compTwo/core_compTwo.js"
+            ],
+            "c/core_sharedLib": [
+                "core_sharedLib/core_sharedLib.js"
+            ],
+            "c/core_baseContainer": [
+                "core_baseContainer/core_baseContainer.js"
+            ],
+            "c/core_baseScreen": [
+                "core_baseScreen/core_baseScreen.js"
+            ],
+            "c/core_baseApp": [
+                "core_baseApp/core_baseApp.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

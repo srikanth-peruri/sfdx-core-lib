@@ -1,0 +1,15 @@
+{
+  "packageDirectories": [
+    {
+      "path": "cydcor-core",
+      "default": true
+    },
+    {
+      "path": "cydcor-common",
+      "default": false
+    }
+  ],
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "45.0"
+}
